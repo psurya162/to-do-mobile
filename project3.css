@@ -1,0 +1,149 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* background-color: #F7F7F7; */
+       
+    }
+    body{
+        background-color: #F7F7F7;
+    }
+  
+    .FIRST_ITEM{
+        width: 100%;
+        height: 70px;
+        background-color: #FFFFFF;
+        padding-left: 125px;
+        display: flex;
+        align-items: center;
+        
+        box-shadow: 0px 3px 30px #7B7B7B29;
+     }
+     
+.one{
+    color: #00A5EC ;
+    font-size: 30px;
+    font-weight: 800;
+}  
+    .child{
+    border: 1px solid #67676729;
+    width: 352px;
+    height: 360px;
+    box-shadow: 2px 5px 1px grey;
+    border-radius: 5px;
+    opacity: 1;
+    /* background-color: #FFFFFF; */
+    
+    
+}
+.child{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 562px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.button{
+    width: 352px;
+    height: 360px;
+        /* background-color: #00A5Ec; */
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 5px;
+        position: absolute;
+        top: 90px;
+        left: 770px;
+    }
+    .button p{
+        color: black;
+        font-size: 20px;
+        padding: 10px 10px;
+       
+        
+        
+    }
+   
+    .backs{
+        font-size: 25px;
+    }
+    .child1 h2{
+        color: #00A5EC;
+        text-align: center;
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+    .MainContainer{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+  
+    }
+    .buttonContainer{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    gap: 10em;
+    }
+    a{
+        text-decoration: none;
+    }
+    .BackButton{
+        position: absolute;
+        top: 98px;
+        left: 560px;
+        font-size: 25px;
+    }
+    .AddButton{
+        position: absolute;
+        top: 98px;
+        right: 608px;
+        font-size: 25px;
+    }
+    input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    line-height: 10px;
+    }
+    .visit{
+        text-decoration: line-through;
+        
+    } 
+@media screen and (max-width:500px) {
+    .child {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 200px;
+        left: 12px;
+        line-height: 30px;
+        margin-right: 10px;
+        width: 298px
+    }
+    .FIRST_ITEM {
+        width: 100%;
+        height: 70px;
+        background-color: #FFFFFF;
+        padding-left: 19px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0p    
+    }
+    .BackButton {
+        position: absolute;
+        top: 98px;
+        left: 12px;
+        font-size: 25px;
+    }
+    .task{
+        display: none;
+    }
+    .AddButton{
+        right: 156px;
+    }
+}
