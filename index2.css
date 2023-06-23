@@ -81,7 +81,9 @@
     .parent{
         margin-left: -19px;
     }
-    
+    .TASK{
+        display: none;
+    }
     
     
 }
